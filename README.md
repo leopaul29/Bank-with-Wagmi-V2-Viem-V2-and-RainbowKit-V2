@@ -1,10 +1,9 @@
-# Bank Dapp exercice
+# Bank Dapp
 
-- Créer une DApp qui permet d’envoyer des Ethers sur un smart contract et aussi de retirer cet
-  argent (utiliser le contrat intelligent déjà réalisé “Bank.sol”)
-- Créer un bouton pour permettre à l’utilisateur de se connecter à la Dapp
-- Créer un champs input qui permet de spécifier le montant en Ethers à envoyer à la DApp et
-  un bouton “Send” pour envoyer ce montant
-- Créer un champs input qui permet de spécifier le montant en Ethers à retirer de la DApp et
-  un bouton “Withdraw” pour venir récupérer ce montant
-- Afficher aussi le montant en Ether que l’utilisateur a sur le smart contract
+![alt text](https://raw.githubusercontent.com/leopaul29/Bank-with-Wagmi-V2-Viem-V2-and-RainbowKit-V2/main/bank.png)
+
+- Create a DApp which allows you to send Ethers to a smart contract and also to withdraw this money (use the already created smart contract “Bank.sol”)
+- Create a button to allow the user to connect to the Dapp
+- Create an input field which allows you to specify the amount in Ethers to send to the DApp and a "Send" button to send this amount
+- Create an input field which allows you to specify the amount of Ether to withdraw from the DApp and a "Withdraw" button to collect this amount
+- Display the amount in Ether that the user has on the smart contract
