@@ -1,13 +1,18 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+# Hardhat
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+# compile
+yarn hardhat compile
+
+# run blockchain
+yarn hardhat node
+
+# run script with network param
+yarn hardhat run ./scripts/deploy.js --network localhost
+yarn hardhat run ./scripts/deploy.js --network sepolia
+
+# run verify
+yarn hardhat verify --network sepolia <contract address>
 ```
+
+deployed at 0x0F425BC448f2125a312E25e05fC06341718a83eD and verified at https://sepolia.etherscan.io/address/0x0F425BC448f2125a312E25e05fC06341718a83eD#code.
