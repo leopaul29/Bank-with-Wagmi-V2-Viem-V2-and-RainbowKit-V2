@@ -63,4 +63,4 @@ const Events = ({ events }) => {
 	);
 };
 
-export default LastEvents;
+export default Events;

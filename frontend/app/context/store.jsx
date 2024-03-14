@@ -29,7 +29,7 @@ export const GlobalContextProvider = ({ children }) => {
 			event: parseAbiItem(
 				"event etherDeposited(address indexed account, uint amount)"
 			),
-			fromBlock: 0n,
+			fromBlock: 5480520n,
 			toBlock: "latest",
 		});
 
@@ -38,7 +38,7 @@ export const GlobalContextProvider = ({ children }) => {
 			event: parseAbiItem(
 				"event etherWithdrawed(address indexed account, uint amount)"
 			),
-			fromBlock: 0n,
+			fromBlock: 5480520n,
 			toBlock: "latest",
 		});
 

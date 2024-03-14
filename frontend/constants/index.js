@@ -1,5 +1,6 @@
 // Dans ce fichier je viens récupérer les informations indispensables pour communiquer avec un contrat intelligent : l'adresse du contract et son abi.
-export const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+// export const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; // HARDHAT ANVIL
+export const contractAddress = "0x0F425BC448f2125a312E25e05fC06341718a83eD";
 export const contractAbi = [
 	{
 		anonymous: false,
