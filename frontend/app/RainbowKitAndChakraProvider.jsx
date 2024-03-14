@@ -6,9 +6,12 @@ import { WagmiProvider } from "wagmi";
 import { sepolia } from "@/utils/sepolia";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
+const WALLETCONNECT_PROJECTID =
+	process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECTID || "";
+
 const config = getDefaultConfig({
 	appName: "Bank Dapp",
-	projectId: "03f8ec0f8ad40a9b543bb4a1051dd071",
+	projectId: WALLETCONNECT_PROJECTID,
 	chains: [sepolia],
 	ssr: true,
 });
